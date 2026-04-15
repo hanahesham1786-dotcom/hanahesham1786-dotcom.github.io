@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(202, 195, 170);
+    height: 85px;
+    border-radius: 10px;
+    border-color: rgb(202, 195, 170);
+    display: flex;
+}
+nav a{
+    text-decoration: none;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid rgb(128, 128, 103);
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+    color: rgb(64, 62, 62);
+    background-color: rgb(227, 214, 196);
+}
+body{
+    background-color: rgba(63, 25, 11, 0.756);
+    display: flex;
+    
+   flex-direction: column;
+    min-height: 100vh;
+}
+.a1 , .a2 , .a3 , .a4 {
+    transition: 1s;
+}
+.a1:hover , .a2:hover ,.a3:hover,.a4:hover{
+    transform: translateY(10px)
+}
+
+.about{
+    width: 100%;
+}
+
+table{
+    border: 3px solid rgb(62, 6, 6);
+    padding: 10px;
+    border-color: antiquewhite;
+    border-right: 1px solid  antiquewhite;
+    border-spacing: 10px ;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: 200px;
+    background-color: rgba(159, 139, 110, 0.83);
+    
+  
+}
+table thead td {
+    border: 1px solid  antiquewhite;
+    text-align: center;
+    padding: 2%;
+}
+table tbody td{
+    border: 1px solid  antiquewhite;
+    border-collapse: collapse;
+    border: 3px solid rgb(62, 6, 6);
+
+}
+label{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+select{
+    font-size: 20px;
+    font-weight: 400;
+}
+footer {
+    background-color: rgb(39, 31, 31);
+    left: 0;
+    width: 100%;
+    height: 12%;
+    margin-top: auto;
+    display: flex;
+    position:absolute;  
+    bottom: 0;
+  /* position: relative ;top: 0;    */
+}
+footer a{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;    
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid rgb(128, 128, 103);
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+    color: rgb(64, 62, 62);
+    background-color: rgb(227, 214, 196);
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+  
+}
+footer ul{
+    line-height: 1.5;
+    font-size: 25px;
+    font-weight: 2px;
+    color: rgb(228, 213, 213);
+}
+form{
+    background-color: rgb(176, 128, 128);
+    border-width: 300px;
+    border: 5px solid rgb(176, 128, 128);
+    margin: auto;
+    font-size: 30px;
+    border-radius: 5px;
+}
+main {
+    flex: 1;
+}
+
+.about{
+    margin-left: auto;
+    width: 99%;
+}
+@media(max-width:768px){
+nav{
+    flex-direction: row;
+    width: 100%;
+
+}
+nav a{
+margin: auto;
+font-size: 1.2rem;
+text-align: center;
+
+}
+
+table td, tr, th{
+    font-size: 0.9rem;
+    
+}
+
+.ch1{
+    font-size: 1.5rem;
+}
+.contacth2{
+    font-size: 1.1rem;
+}
+
+
+}
+
+
+@media(max-width:390px){
+nav{
+    flex-direction: row;
+    width: 100%;
+
+}
+nav a{
+margin: auto;
+font-size: 0.9rem;
+text-align: center;
+
+}
+
+}
